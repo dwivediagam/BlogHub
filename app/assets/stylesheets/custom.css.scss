@@ -1,2 +1,56 @@
+$navbar-default-bg: #000000;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
+
+#logo
+{
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  letter-spacing: -1px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+}
+
+#logo:hover
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: asset-url('sdsa.jpg');
+  background-size: cover;
+  height: 706px;
+  margin-bottom: 0;
+}
+
+.jumbotron h1{
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-family: 'Chewy', cursive;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.btn-xlarge{
+  font-size: 1.7em;
+  background-color: #f2f2f2;
+  color: #000000;
+  border-radius: 25px;
+  font-weight: bold;
+}
