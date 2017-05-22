@@ -25,10 +25,13 @@ $navbar-default-bg: #000000;
   text-align: center;
 }
 
+body{
+  overflow-x: hidden;
+}
 .jumbotron{
   background-image: asset-url('sdsa.jpg');
   background-size: cover;
-  height: 657px;
+  height: 1000px;
   margin-bottom: 0;
 }
 
@@ -45,6 +48,7 @@ $navbar-default-bg: #000000;
 
 .navbar{
   margin-bottom: 0;
+
 }
 
 .btn-xlarge{
