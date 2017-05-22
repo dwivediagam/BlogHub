@@ -28,7 +28,7 @@ $navbar-default-bg: #000000;
 .jumbotron{
   background-image: asset-url('sdsa.jpg');
   background-size: cover;
-  height: 656px;
+  height: 657px;
   margin-bottom: 0;
 }
 
@@ -59,7 +59,11 @@ $navbar-default-bg: #000000;
   height: 50px;
   background-color: #000000;
   text-align:center;
-  
+  padding-top: 10px;
+  padding-bottom: 0px;
+  position:fixed;
+  bottom:0;
+  width:100%;  
 }
 i{
   color: white;
