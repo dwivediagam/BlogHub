@@ -20,6 +20,17 @@ $navbar-default-bg: #000000;
   text-decoration: none;
 }
 
+.badge
+{
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
 .center
 {
   text-align: center;
